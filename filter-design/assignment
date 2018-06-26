@@ -1,0 +1,8 @@
+In the first part, we where  asked to create a function that makes the filtering (myFilterFreq) in the frequency domain. 
+I check the usage of my funcion using given data (dip_hw_2.m) in the demo1 script.
+In the second part we where asked to create 3 type of filters, an ideal, a butterworth and a gaussian, for three ranges of frequencies, low pass,
+band pass and high pass. 
+I check my filters in the demo2 script using several given parameters.
+Lastly, we where asked to create 9 more directive filters, one for each filter of the second part.
+In the last script, demo3, i check the usage of my directive filters using some given argumnets for all possible angles
+and summon them in order to compare them with the complete ones from part 2.
