@@ -1,0 +1,10 @@
+In the first part, we where asked to create one method that converts a given image to a fully connected undirected graph (Image2Graph)
+and return the affinity matrix of that graph.
+Then, we were asked to create a function that contains the spectral clustering algorithm.
+In demo1 and demo2 scrips, I test my functions, segmenting some given images to 2,3 and 4 clusters, and show the results.
+In the second part, I create another function, myNCuts, that solves the clustering problem using the normalized Cuts or n Cuts algorithm.
+I test my function in demo3a script clustering two given images to 2,3 and 4 clusters.
+Finally, we had to create a recursive version of myNCuts, myRecursiveNCuts, and test it in the last two demos, demo3b and demo3c.
+In demo3b I test it for only one iteration, so I use the vanilla myNCuts. However, in the last script I use the recursive one.
+To accomplish the recursive version I also had to create the calculateNcuts method, in order to calculate the n-cuts value of the
+normalized cuts algorithm and use it as a threshold to stop the recursion inside my function.
